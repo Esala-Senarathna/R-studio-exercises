@@ -14,7 +14,15 @@ hist(x2, main="Histogram of No. of shareholders", xlab="No of shareholders")
 
 #Q2 Draw a histogram using seven classes where the lower limit is 130 and an upper limit of 270.
 
-hitogram<-hist(x2, main="Histogram of No. of shareholders", xlab="No of shareholders", breaks = seq(130,270,length=8))
+histogram<-hist(x2, main="Histogram of No. of shareholders", xlab="No of shareholders", breaks = seq(130,270,length=8))
 
 #display breakpoints of the graph 
-hitogram
+histogram
+
+#Q3 Construct the frequency distribution for the above specification.
+
+breaks<-histogram$breaks
+breaks
+
+freq<-histogram$counts
+freq
