@@ -39,9 +39,11 @@ cbind(CLASSES=classes,FREQUENCY=freq)
 
 mids<-histogram$mids
 
+#draw on the same histogram
 lines(mids,freq)
 
-
+#draw the polygon on a seperate plot
+plot(mids,freq,type='l',main="Frequency polygon", xlab="Shareholders",ylab="frequency",ylim=c(0,max(freq)))
 
 
 
