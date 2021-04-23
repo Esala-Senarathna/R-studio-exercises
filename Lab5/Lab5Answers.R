@@ -6,13 +6,14 @@ fix(data)
 names(data)<-c("x1","x2")
 
 #attaching the data
-attach(data)
+attach(data)#execute the cammand 2 times
 
-#Q1
+#Q1  Draw a histogram for the above data.
 hist(x2, main="Histogram of No. of shareholders", xlab="No of shareholders")
 
 
-#Q1
+#Q2 Draw a histogram using seven classes where the lower limit is 130 and an upper limit of 270.
 
+hist(x2, main="Histogram of No. of shareholders", xlab="No of shareholders", breaks = seq(130,270,length=8))
 
 
