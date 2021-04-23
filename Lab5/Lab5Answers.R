@@ -46,6 +46,22 @@ lines(mids,freq)
 plot(mids,freq,type='l',main="Frequency polygon", xlab="Shareholders",ylab="frequency",ylim=c(0,max(freq)))
 
 
+#Q5 Portray the distribution in a less-than cumulative frequency polygon.
+
+cum.freq<-cumsum(freq)
+new<-c()
+for (i in 1:length(breaks)){
+	if(i ==1){
+		new[i]= 0
+	}else{
+		new[i]=cum.freq[i-1]
+	}
+}
+
+
+
+
+
 
 
 
