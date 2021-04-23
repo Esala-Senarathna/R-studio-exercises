@@ -33,3 +33,17 @@ for(i in 1:length(breaks)-1){
 }
 
 cbind(CLASSES=classes,FREQUENCY=freq)
+
+
+#Q4 Portray the distribution in the form of a frequency polygon.
+
+mids<-histogram$mids
+
+lines(mids,freq)
+
+
+
+
+
+
+
