@@ -61,7 +61,7 @@ for (i in 1:length(breaks)){
 plot(breaks,new,type='o',main="Frequency polygon", xlab="Shareholders",ylab="frequency",ylim=c(0,max(cum.freq)))
 
 
-
+#Q6 - this question is in correct
 
 
 
