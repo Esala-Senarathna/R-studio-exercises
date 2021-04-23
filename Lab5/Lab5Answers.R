@@ -29,7 +29,7 @@ freq
 
 classes<-c()
 for(i in 1:length(breaks)-1){
-	classes[i]<-paste0("[",break[i],","breaks[i+1],"]")
+	classes[i]<-paste0("[",breaks[i],",",breaks[i+1],"]")
 }
 
 cbind(CLASSES=classes,FREQUENCY=freq)
