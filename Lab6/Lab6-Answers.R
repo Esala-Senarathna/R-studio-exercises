@@ -80,13 +80,18 @@ freq
 
 #Q12 - What is the average temperature, during September? 
 
-
+mean(temp[month=="sep"])
 
 
 #Q13 - On which day have they measured most observations during month of July?
 
+barplot(freq,besides=TRUE,xlab="Month",ylab="Frequency",legend=rownames(freq))
 
+#day = Saturday
 
+#This value can also be taken by the below table also
+freq<-table(day,month)
+freq
 
 
 
