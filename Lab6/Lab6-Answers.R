@@ -68,7 +68,7 @@ sd(wind)
 
 #Q10 -  What is the interquartile range of wind variable?
 
-
+IQR(wind)
 
 
 
