@@ -50,6 +50,17 @@ summary(temp)
 boxplot(wind,horizontal=TRUE,outline=TRUE,pch=2)
 
 
+#Q7 -  According to the boxplot of wind what kind of a distribution it has? 
+negative skewed
+by oberving the boxplot theis conclision is made
+
+#Q8 - What is the median of temperature? 
+
+summary(temp)
+
+median = 193
+
+#Q9 - what is the mean and standard variation of wind variable? 
 
 
 
