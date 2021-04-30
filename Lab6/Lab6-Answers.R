@@ -62,6 +62,12 @@ median = 193
 
 #Q9 - what is the mean and standard variation of wind variable? 
 
+mean(wind)
+#standard deviation
+sd(wind)
+
+#Q10 -  What is the interquartile range of wind variable?
+
 
 
 
