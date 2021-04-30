@@ -70,6 +70,21 @@ sd(wind)
 
 IQR(wind)
 
+#Q11 - How many observations have measured during Friday in August? 
+
+fix(data)
+freq<-table(day,month)
+freq
+
+#answer = 21 (by observing the table the answer is taken) 
+
+#Q12 - What is the average temperature, during September? 
+
+
+
+
+#Q13 - On which day have they measured most observations during month of July?
+
 
 
 
