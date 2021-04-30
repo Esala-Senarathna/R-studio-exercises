@@ -11,6 +11,23 @@ attach(data)
 
 str(data)
 
+#Q3 - How many observations are there?
+
+517
+
+#Q4 - What is the maximum and minimum wind speed of this data set? 
+
+min(wind)
+max(wind)
+
+#Q5 - Get five number summary of temperature
+
+summary(temp)
+
+
+
+
+
 
 
 
