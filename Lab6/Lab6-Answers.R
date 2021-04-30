@@ -47,6 +47,7 @@ summary(temp)
 #Q6 -  How many outliers are there in the wind variable? 
 
 
+boxplot(wind,horizontal=TRUE,outline=TRUE,pch=2)
 
 
 
